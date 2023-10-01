@@ -10,4 +10,14 @@ non-empty string => true
 
 let ar = null
 let conv = Number(ar);
-console.log(conv);
+// console.log(conv);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+// console.log(true);
+console.log(+true);
+
+console.log(+"");
