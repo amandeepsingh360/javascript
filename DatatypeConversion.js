@@ -21,3 +21,9 @@ console.log(1 + 2 + "2");
 console.log(+true);
 
 console.log(+"");
+
+
+/*
+Memory are of two types:-
+Stack(Primitive), Heap(Non - Primitive)
+*/
