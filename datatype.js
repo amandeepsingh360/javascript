@@ -20,3 +20,25 @@ Types of DataTypes:-
 // typeof(isLoggedIn) & typeof isLoggedIn are same
 
 console.log(typeof(null)); 
+/*
+Datatypes are of two types:-
+
+1. Primitive(Actual value is not changed but copy is made)
+String => string, Number => number, Boolean => boolean, null => object, undefined => undefined, Symbol => symbol, BigInt => bigint
+
+2. Non-Primitive(Reference Value)
+Array => object, Objects => object, Function => function
+
+JavaScript is a dynamically typed language because we dont have to define the type of value at declaration
+*/
+
+let myObj = {
+    name : "Amandeep",
+    Id : 13
+} 
+
+let myArray = [1,2,3];
+
+const myfunction = function(){
+    console.log("hello world");
+}   
