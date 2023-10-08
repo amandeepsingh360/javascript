@@ -49,3 +49,12 @@ const obj5 = {...obj1,...obj6};
 
 // in Assign and {...} method, if the same key is present then the value of corresponding to the key is changed
 console.log(obj5);
+
+// Array
+console.log(Object.keys(obj5));
+console.log(Object.values(obj5));
+console.log(Object.entries(obj5)); //array me Array
+
+// property present h ya nhi
+console.log(obj5.hasOwnProperty('1'));
+console.log(obj5.hasOwnProperty('5'));
