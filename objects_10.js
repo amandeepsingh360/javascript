@@ -71,3 +71,6 @@ const {name:instructor} = nObj;
 
 console.log(instructor);
 
+// JSON formatter tool for API beautification
+
+// https://api.github.com/users/amandeepsingh360
