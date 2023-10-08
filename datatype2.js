@@ -12,7 +12,7 @@ Types of DataTypes:-
 2. String(used in '' & "")
 3. Boolean
 4. null => standalone value(type is object)
-5. undefined => not given a value(type is undefined)
+5. undefined => when not given a value(type is undefined)
 6. Symbol => Used in React more(to identify uniqueness)
 7. Object
 */
@@ -27,7 +27,7 @@ Datatypes are of two types:-
 String => string, Number => number, Boolean => boolean, null => object, undefined => undefined, Symbol => symbol, BigInt => bigint
 
 2. Non-Primitive(Reference Value)
-Array => object, Objects => object, Function => function
+Array => object, Object => object, Function => function
 
 JavaScript is a dynamically typed language because we dont have to define the type of value at declaration
 */

@@ -35,8 +35,8 @@ Some string functions which I studied from MDN
 1. str.at(index) or str.charAt(index) => at is newer version which supports negative indexes also. 
 Prefer at than charAt..
 
-2. concat() => Used for string concatenation[We can also use '+' operator].
-concat("Aman","deep") => Amandeep
+2. str.concat(concatString) => Used for string concatenation[We can also use '+' operator].
+"Aman".concat("deep") => Amandeep
 
 3. str.endsWith(searchString,endPosition(optional)) => Used for checking end string in a string.
 If endPosition is specified. It will search for searchString before endPosition
@@ -86,3 +86,5 @@ str.trimStart() and str.trimEnd() removes whiteSpaces from start and end resp.
 */
 
 console.log("Hello Hello Hello".replace("Hello","Bye"));
+
+console.log("Aman".concat("deep"," Singh"));

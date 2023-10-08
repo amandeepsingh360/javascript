@@ -58,3 +58,16 @@ console.log(Object.entries(obj5)); //array me Array
 // property present h ya nhi
 console.log(obj5.hasOwnProperty('1'));
 console.log(obj5.hasOwnProperty('5'));
+
+const nObj = {
+    name : "Amandeep Singh",
+    age : 18,
+    subject : "Science"  
+}
+
+// For ease of use
+// const {name} = nObj;
+const {name:instructor} = nObj;
+
+console.log(instructor);
+
