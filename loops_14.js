@@ -31,3 +31,5 @@ for (const key in obj) {
 for(const key in arr){
     console.log(arr[key]);
 }
+
+// forin cannot be used in map
