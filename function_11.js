@@ -67,8 +67,17 @@ const arrow = () => {
 
 arrow();
 
+// Implicit Return[Maan lena ki return krega]
 const addTwo = (num1,num2) => (num1 + num2)
-// whatever we write in paranthesis is assumed to be redturned
+// const addTwo = (num1,num2) => ({num1 + num2}) // it is not true because it will return object and curly braces dont have object
+
+
+// Explicit Return[return lgana pdega]
+// Curly braces me return hmesha likhna pdega
+// const addTwo = (num1,num2)=>({username:"Aman"}) // to return object
+
+
+// whatever we write in paranthesis is assumed to be returned
 
 // Immediately Invoked Function Expressions(IIFE)
 // IIFE is used to stop global pollution. It immediately executes.
