@@ -34,7 +34,7 @@ JavaScript is a dynamically typed language because we dont have to define the ty
 
 let myObj = {
     name : "Amandeep",
-    Id : 13
+    Id : 13, 
 } 
 
 let myArray = [1,2,3];

@@ -6,15 +6,17 @@ console.log(`Hi my name is ${name} and my income is ${income} lpa`);
 
 // gaming is an object which contains key-value pairs of index and its value
 const gaming = new String("amandeep-singh");
+console.log(typeof gaming);
 console.log(gaming[0]);
 console.log(gaming.__proto__);
+// console.log(name.__proto__);
 
 // the functions of string are in __proto__ but we can directly access them also
 
 console.log(gaming.length);
 
 console.log(gaming.toLowerCase()) // it doesnot change original value due to primitive datatype
-console.log(gaming.charAt(5)); // character position, if not present then empty character
+console.log(gaming.at(5)); // character position, if not present then empty character
 console.log(gaming.indexOf("M"));// if not present, -1
 
 console.log(gaming.substring(0,4));

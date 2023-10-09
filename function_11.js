@@ -82,7 +82,8 @@ const addTwo = (num1,num2) => (num1 + num2)
 // Immediately Invoked Function Expressions(IIFE)
 // IIFE is used to stop global pollution. It immediately executes.
 
-(function hello(hll){
+// ; is used to differentiate previous code and new function IIFE
+;(function hello(hll){
     console.log(`${hll}`);
 })("hello");
 // execute("hello")

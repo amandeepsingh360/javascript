@@ -9,7 +9,7 @@ console.log([accountID,accountEmail,accountPassword,accountCity]);
 const => constant(cannot be changed)
 variables can be declared by let and var. 
 We dont use var because of the problem of scope in var. if some programmer write a varible with var and other programmer will write same name of variable in other File, then value of variable gets changed.
-To solve this, then let comes which doesnot leads to scope problem.\
+To solve this, then let comes which doesnot leads to scope problem.
 
 Due to safeness of JS, we may dont assign variable(var,let or const) and can also use it. But it is highly unsafe.
 
