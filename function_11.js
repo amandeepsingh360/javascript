@@ -71,6 +71,7 @@ const addTwo = (num1,num2) => (num1 + num2)
 // whatever we write in paranthesis is assumed to be redturned
 
 // Immediately Invoked Function Expressions(IIFE)
+// IIFE is used to stop global pollution. It immediately executes.
 
 (function hello(hll){
     console.log(`${hll}`);
